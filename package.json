@@ -1,0 +1,28 @@
+{
+  "name": "queuenoderediskue",
+  "version": "1.0.0",
+  "description": "Lab of queue with NodeJS, Redis and Kue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./services/Queue.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanessasoutoc/queueNodeRedisKue.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Redis",
+    "Kue"
+  ],
+  "author": "Vanessa Souto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanessasoutoc/queueNodeRedisKue/issues"
+  },
+  "homepage": "https://github.com/vanessasoutoc/queueNodeRedisKue#readme",
+  "dependencies": {
+    "kue": "^0.11.6"
+  }
+}
